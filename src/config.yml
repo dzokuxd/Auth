@@ -1,0 +1,49 @@
+config:
+  auth:
+    message:
+      join: '&cZalogowano z konta {PREMIUM}'
+      kick: '&c&lCzas logowania dobiegl konca'
+      cantlogin: '&c&lKolejny raz mozesz polaczyc sie za &4&l{TIME}'
+      playerisonline: '&c&lGracz o nicku &4&l{PLAYER} &c&ljest juz na serwerze!'
+      invalidnick: '&c&lTwoj nick zawiera niedozwolone znaki!'
+      multi: |-
+        &c&lWykryto multi-konto, gracze z twoim ip: &4&l{PLAYERS}
+      captcha: '&7Twoj kod captcha: &c{CAPTCHA}'
+      cmdonlynonpremium: '&cTa komenda nie jest dla graczy premium!'
+      alreadylogin: '&cJestes juz zalogowany!'
+      dontregister: '&cNie jestes zarejestrowny!'
+      password: '&cHaslo jest nie poprawne!'
+      passwordpassword: '&cHasla nie pasuja do siebie!'
+      passwordlenght: '&cHaslo musi zawierac 8 znakow!'
+      passwordalfa: '&cHaslo musi zawierac znak specjalny!'
+      login: '&aPomyslnie zalogowano!'
+      register: '&aPomyslnie zalogowano!'
+      remember: '&aPomyslnie zapamietano haslo!'
+      changepassword: '&aPomyslnie zmieniono haslo!'
+      alreadyregister: '&cJestes juz zarejestrowany!'
+      alreadyremember: '&cTwoje konto jest juz zapamietane!'
+      kickunregister: '&c&lTwoje konto zostalo odrejestrowne przez &4&l{ADMIN}'
+      kicksetpremium: '&c&lTwoje konto zostalo zmienione na &4&l{PREMIUM} &c&lprzez
+        &4&l{ADMIN}'
+      error: '&4Blad: &cWystapil nie znany blad, Wejdz jeszcze raz!'
+    settings:
+      maxaccount: 1
+      auth: auth
+      main: hc
+  mysql:
+    host: host
+    port: 3306
+    pass: pass
+    user: user
+    data: data
+  wl:
+    reason: "&cNie jestes na wl!"
+    users:
+    - dzokv
+  motd: "motd"
+  slot: 1000
+  admin:
+  - dzokv
+  - mwqx
+  slot1:
+  - dzokv

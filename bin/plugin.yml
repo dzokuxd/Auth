@@ -1,0 +1,4 @@
+main: pl.dzokv.auth.AuthPlugin
+name: Auth
+version: 0.1
+author: dzokv
