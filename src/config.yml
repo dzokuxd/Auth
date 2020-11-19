@@ -1,7 +1,7 @@
 config:
   auth:
     message:
-      join: '&cZalogowano z konta {PREMIUM}'
+      join: '&cZalogowano z konta {PREMIUM}!'
       kick: '&c&lCzas logowania dobiegl konca'
       cantlogin: '&c&lKolejny raz mozesz polaczyc sie za &4&l{TIME}'
       playerisonline: '&c&lGracz o nicku &4&l{PLAYER} &c&ljest juz na serwerze!'
