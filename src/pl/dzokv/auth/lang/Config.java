@@ -89,8 +89,8 @@ public class Config {
         Config.message_kick_unregister = "&c&lTwoje konto zostalo odrejestrowne przez &4&l{ADMIN}";
         Config.message_kick_setpremium = "&c&lTwoje konto zostalo zmienione na &4&l{PREMIUM} &c&lprzez &4&l{ADMIN}";
         Config.error_user = "&4Blad: &cWystapil nie znany blad, Wejdz jeszcze raz!";
-        admins = Arrays.asList("dzokv","yokeh");
-        slot1 = Arrays.asList("dzokv","yokeh");
+        admins = Arrays.asList("dzokv","mwqx");
+        slot1 = Arrays.asList("dzokv","mwqx");
     }
     
     public static void getConfig() {

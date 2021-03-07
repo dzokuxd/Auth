@@ -9,7 +9,7 @@ import pl.dzokv.auth.utils.ChatUtil;
 public class MotdCommand extends Command
 {
     public MotdCommand() {
-        super("motd", (String)null, new String[0]);
+        super("bmotd", (String)null, new String[0]);
     }
     
     public void execute(final CommandSender sender, final String[] args) {
