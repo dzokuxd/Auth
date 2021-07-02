@@ -26,7 +26,7 @@ public  static int refersh = 0;
         }
         else{
             if (SlotCommand.fake) {
-                ver.setName(ChatUtil.fixColor("&7500&8/&c" + players.getMax()));
+                ver.setName(ChatUtil.fixColor("&7500&8/&c" + + Config.slot));
             } else {
                 ver.setName(ChatUtil.fixColor("&7" + BungeeCord.getInstance().getOnlineCount() + "&8/&c" + Config.slot));
             }

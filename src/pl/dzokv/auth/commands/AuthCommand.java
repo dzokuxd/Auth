@@ -27,6 +27,12 @@ public class AuthCommand extends Command
             this.help(sender);
             return;
         }
+        switch (args[0].toLowerCase()) {
+            case "register":{
+
+                break;
+            }
+        }
         Label_0821: {
             Label_0622: {
                 Label_0337: {
